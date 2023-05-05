@@ -4,17 +4,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 /* Headings and title */
 
 #title{
     font-family: 'Cardo';
-    font-weight: 300;
+    font-weight: 200px;
     color: #3a3a3a; 
     float: left;
 }
 
 #menu{
     font-size: 100%;
+    list-style-type: square;
 }
 
 #menu li{
@@ -32,5 +39,20 @@ body {
 }
 
 #title, #menu{
-    line-height: 75px;
+    line-height: 60px;
 }
+
+/* James Connolly image */
+
+#jc-drop{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#jc {
+    height: 400px;
+    width: 100%;
+    background: url('../images/James-Connolly.jpeg') no-repeat center center;
+}
+
