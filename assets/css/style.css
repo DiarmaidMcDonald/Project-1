@@ -56,3 +56,11 @@ body {
     background: url('../images/James-Connolly.jpeg') no-repeat center center;
 }
 
+#timeline {
+    text-decoration: 1px solid #3a3a3a underline;
+    float: center;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: inherit;
+    text-transform: uppercase;
+}
