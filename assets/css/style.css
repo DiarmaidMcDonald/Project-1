@@ -150,7 +150,7 @@ legend {
     margin; 10px;
     padding: 25px;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cardo', sans-serif;
     float: center;
 
 }
@@ -169,3 +169,35 @@ input[type=email] {
     float:left;
 }
 
+/* Questionaire */
+
+h3 {
+    margin: 15px;
+    font-family: 'Cardo', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+.heading{
+    margin: 10px;
+    padding: 10px;
+    color: #3a3a3a;
+    font-family: 'Cardo', sans-serif;
+}
+
+.questionaire {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+     margin: 10px;
+     padding: 10px;
+}
