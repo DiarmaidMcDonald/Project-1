@@ -12,11 +12,20 @@ body {
 
 /* Headings and title */
 
+h1 {
+    font-family: 'Cardo', sans-serif;
+        font-weight: 100px;
+        color: #3a3a3a;
+        float: center;
+        text-decoration: none;
+}
+
 #title{
-    font-family: 'Cardo';
-    font-weight: 200px;
+    font-family: 'Cardo', sans-serif;
+    font-weight: 100px;
     color: #3a3a3a; 
     float: left;
+    text-decoration: none;
 }
 
 #menu{
@@ -44,7 +53,7 @@ body {
 
 /* James Connolly image */
 
-#jc-drop{
+#jc-drop {
     height: 400px;
     width: 100%;
     overflow: hidden;
@@ -57,13 +66,15 @@ body {
 }
 
 #timeline {
-    text-decoration: 1px solid #3a3a3a underline;
+    text-decoration: 2px solid #3a3a3a underline;
     float: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 30px;
     font-family: inherit;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin: 5px;
 }
+
 
 
 /* Footer */
@@ -87,3 +98,74 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Sign up Page */
+
+ #winner {
+    font-family: 'Cardo', sans-serif;
+        font-weight: 100px;
+        color: #3a3a3a;
+        float: left;
+        text-decoration: none;
+        margin-top:5px;
+ }
+
+/* Sign Up Page Image */
+
+#kgt-drop {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#kgt {
+    height: 400px;
+    width: 100%;
+    background: url('../images/kilmainham-gaol-tour.webp') no-repeat center center;
+}
+
+h2 {
+    margin: 15px;
+    font-family: 'Cardo', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Sign Up Page Details */
+
+fieldset {
+    border: none;
+    margin-top: 40px;
+}
+
+.block-label {
+    display: block;
+    width: 5%;
+    float:center;
+    margin-bottom: 10px;
+}
+
+legend {
+    margin; 10px;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    float: center;
+
+}
+
+.float-left {
+    float: left;
+    vertical-align: inline-block;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    float:left;
+}
+
