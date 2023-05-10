@@ -201,3 +201,29 @@ p{
      margin: 10px;
      padding: 10px;
 }
+
+/* Submit and Reset Button */
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    float:left;
+    width: 120px;
+}
+
+input[type=reset] {
+
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:black ;
+    color: white;
+    border: 1px solid #5e361b;
+    border-radius: 5px;
+    float:left;
+}
