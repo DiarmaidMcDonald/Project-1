@@ -57,12 +57,16 @@ h1 {
     height: 400px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 #jc {
     height: 400px;
     width: 100%;
     background: url('../images/James-Connolly.jpeg') no-repeat center center;
+    margin-bottom:100px;
+    margin-top: 50px;
 }
 
 #timeline {
@@ -81,6 +85,15 @@ h1 {
 
 footer {
     height: 150px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+footer > span {
+    text-align: center;
+    color: white;
+    float: center;
+
 }
 
 .social-networks {
@@ -96,8 +109,9 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
 }
+
 
 /* Sign up Page */
 
@@ -112,24 +126,23 @@ footer {
 
 /* Sign Up Page Image */
 
-#kgt-drop {
+.video{
     height: 400px;
-    width: 100%;
-    overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 100px;
+        float: center;
+
 }
 
-#kgt {
-    height: 400px;
-    width: 100%;
-    background: url('../images/kilmainham-gaol-tour.webp') no-repeat center center;
-}
-
-h2 {
-    margin: 15px;
+h2, h3 {
+    margin-top: 100px;
     font-family: 'Cardo', sans-serif;
     text-decoration: bold;
     text-align: center;
     font-size: 30px;
+    float: center;
 }
 
 /* Sign Up Page Details */
@@ -152,12 +165,14 @@ legend {
     font-size: 20px;
     font-family: 'Cardo', sans-serif;
     float: center;
-
+    text-decoration: underline;
 }
 
-.float-left {
+.f-left {
     float: left;
-    vertical-align: inline-block;
+    width: 50%;
+    padding: 5px;
+    
 }
 
 input[type=text],
@@ -167,6 +182,7 @@ input[type=email] {
     padding: 5px;
     margin: 5px;
     float:left;
+    border-style: solid;
 }
 
 /* Questionaire */
@@ -208,7 +224,7 @@ input[type=submit] {
     margin-top: 20px;
     margin-left: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: #3a3a3a;
     color: white;
     border: none;
     border-radius: 5px;
@@ -221,9 +237,40 @@ input[type=reset] {
     margin-top: 20px;
     margin-left: 10px;
     padding: 10px;
-    background-color:black ;
+    background-color: #3a3a3a ;
     color: white;
     border: 1px solid #5e361b;
     border-radius: 5px;
     float:left;
 }
+
+
+/* Media queries */ 
+
+/* For Large to Medium Screens */
+
+@media screen and (max-width: 1200px){
+
+    #{
+
+    }
+}
+
+/* For Medium Screens */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #winner {
+        clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+    }
