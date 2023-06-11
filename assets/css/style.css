@@ -2,9 +2,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #009E60;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -14,41 +15,47 @@ body {
 
 h1 {
     font-family: 'Cardo', sans-serif;
-        font-weight: 100px;
-        color: #3a3a3a;
-        float: center;
-        text-decoration: none;
+    font-weight: 100px;
+    color: #ffffff;
+    float: center;
+    text-decoration: none;
 }
 
-#title{
+#title {
     font-family: 'Cardo', sans-serif;
     font-weight: 100px;
-    color: #3a3a3a; 
+    color: #ffffff;
     float: left;
     text-decoration: none;
 }
 
-#menu{
+#menu {
     font-size: 100%;
     list-style-type: square;
+    list-style: none;
 }
 
-#menu li{
+#menu li {
     float: right;
     margin-right: 20px;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #ffffff;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
-    color: #3a3a3a
+    color: #ffffff;
 }
 
-#title, #menu{
+#title,
+#menu {
     line-height: 60px;
+}
+
+#timeline {
+    color: #ffffff;
 }
 
 /* James Connolly image */
@@ -66,13 +73,13 @@ h1 {
     height: 400px;
     width: 100%;
     background: url('../images/James-Connolly.jpeg') no-repeat center center;
-    margin-bottom:100px;
+    margin-bottom: 100px;
     margin-top: 50px;
     background-size: auto;
 }
 
 #timeline {
-    text-decoration: 2px solid #3a3a3a underline;
+    text-decoration: 2px solid #ffffff underline;
     float: center;
     font-weight: bold;
     font-size: 30px;
@@ -81,17 +88,29 @@ h1 {
     margin: 5px;
 }
 
+/* Gallery */
 
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#photo>img {
+
+    width: 100%;
+}
 
 /* Footer */
 
 footer {
-    height: 150px;
-    background-color: #3a3a3a;
+    padding: 20px;
+    background-color: #ffa500;
     color: white;
 }
 
-footer > span {
+footer>span {
     text-align: center;
     color: white;
     float: center;
@@ -117,29 +136,31 @@ footer > span {
 
 /* Sign up Page */
 
- #winner {
+#winner {
     font-family: 'Cardo', sans-serif;
-        font-weight: 100px;
-        color: #3a3a3a;
-        float: left;
-        text-decoration: none;
-        margin-top:5px;
- }
+    font-weight: 100px;
+    color: #3a3a3a;
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+}
 
 /* Sign Up Page Video */
 
-.video{
+.video {
     float: center;
     margin-left: 375px;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin-top: 100px;
     font-family: 'Cardo', sans-serif;
     text-decoration: bold;
     text-align: center;
     font-size: 30px;
     float: center;
+    color: #ffffff;
 }
 
 /* Sign Up Page Details */
@@ -152,24 +173,26 @@ fieldset {
 .block-label {
     display: block;
     width: 5%;
-    float:center;
+    float: center;
     margin-bottom: 10px;
 }
 
 legend {
-    margin; 10px;
+    margin: 10px;
     padding: 25px;
     font-size: 20px;
     font-family: 'Cardo', sans-serif;
     float: center;
     text-decoration: underline;
+    color: #ffffff;
 }
 
 .f-left {
     float: left;
     width: 50%;
     padding: 5px;
-    
+    color: #ffffff;
+
 }
 
 input[type=text],
@@ -178,7 +201,7 @@ input[type=email] {
     width: 50%;
     padding: 5px;
     margin: 5px;
-    float:left;
+    float: left;
     border-style: solid;
 }
 
@@ -196,10 +219,10 @@ label {
     margin: 10px 15px 5px 0;
 }
 
-.heading{
+.heading {
     margin: 10px;
     padding: 10px;
-    color: #3a3a3a;
+    color: #ffffff;
     font-family: 'Cardo', sans-serif;
 }
 
@@ -207,12 +230,14 @@ label {
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
+    color: #ffffff;
 }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
-     margin: 10px;
-     padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
 }
 
 /* Submit and Reset Button */
@@ -225,7 +250,7 @@ input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
-    float:left;
+    float: left;
     width: 120px;
 }
 
@@ -234,26 +259,35 @@ input[type=reset] {
     margin-top: 20px;
     margin-left: 10px;
     padding: 10px;
-    background-color: #3a3a3a ;
+    background-color: #3a3a3a;
     color: white;
     border: 1px solid #5e361b;
     border-radius: 5px;
-    float:left;
+    float: left;
+}
+
+/* Map */
+
+.map {
+    height: auto;
+    max-width: 100%;
+    border: none;
+
 }
 
 
-/* Media queries */ 
+/* Media queries */
 
 /* For Large Screens down */
 @media screen and (max-width: 1200px) {
 
     .video {
-        
-                width: 100%;
-                height: 1200px;
-                margin: 0 auto;
-            }
-    
+
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
 
     #menu {
         clear: left;
@@ -265,32 +299,31 @@ input[type=reset] {
 
     #title {
         clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px; 
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
-        .video {
-            float: left;
-            clear: left;
-        }
+    .video {
+        float: left;
+        clear: left;
+    }
+}
+
+/* For Medium Screens Down */
+
+@media screen and (max-width: 950px) {
+
+    #title {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
-    /* For Medium Screens Down */
-
-    @media screen and (max-width: 950px)
-     {
-        
-        #title{
-            clear: left;
-                float: left;
-                margin-left: 30px;
-                margin-bottom: 20px;
-                line-height: 25px;
-        }
-
-        #menu {
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -299,15 +332,12 @@ input[type=reset] {
 
     }
 
-         .video {
-             width: 95vw;
-             height: 950px;
-             margin: 0 auto;
-             float: left;
-             clear: left;
+    .video {
+        width: 95vw;
+        height: 950px;
+        margin: 0 auto;
+        float: left;
+        clear: left;
 
-         }
+    }
 }
-
-
-
