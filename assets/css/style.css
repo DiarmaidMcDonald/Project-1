@@ -14,7 +14,7 @@ body {
 /* Headings and title */
 
 h1 {
-    font-family: 'Cardo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 100px;
     color: #ffffff;
     float: center;
@@ -72,7 +72,7 @@ h1 {
 #jc {
     height: 400px;
     width: 100%;
-    background: url('../images/James-Connolly.jpeg') no-repeat center center;
+    background: url('../images/jamesconnolly.jpeg') no-repeat center center;
     margin-bottom: 100px;
     margin-top: 50px;
     background-size: auto;
@@ -90,16 +90,17 @@ h1 {
 
 /* Gallery page */
 
-#photos {
-    clear: both;
-    line-height: 0;
+.gallery {
+    display: inline-block;
     column-count: 2;
     column-gap: 0;
+    grid-gap: none;
+    clear: both;
 }
 
-#photo>img {
-
-    width: 100%;
+.gallery img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer for all pages */
