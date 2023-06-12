@@ -62,13 +62,17 @@ h1 {
 
 #jc {
     background-image: url('../images/jamesconnolly4.jpeg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0;
     padding: 0;
     height: 100vh;
+    clear: both;
+    top: 25%;
+
 }
+
 
 #timeline {
     text-decoration: 2px solid #ffffff underline;
@@ -93,6 +97,11 @@ h1 {
 .gallery img {
     max-width: 100%;
     height: auto;
+}
+
+.large {
+    height: 100px;
+    width: 100%;
 }
 
 /* Footer for all pages */
@@ -261,13 +270,9 @@ input[type=reset] {
 /* Map at the bottom of Sign Up form */
 
 .map {
-    position: absolute;
-    top: 25%;
-    height: auto;
-    max-width: 100%;
+    height: 350px;
+    width: 100%;
     border: none;
-    clear: both;
-    float: left;
 
 }
 
@@ -289,7 +294,8 @@ input[type=reset] {
     float: left;
     width: 100%;
     padding: 0;
-    margin-left: 0;
+    margin-left: 20px;
+    left: 20px;
 
 }
 
@@ -307,4 +313,40 @@ legend>p {
     padding: 0;
     margin: 0;
     width: 100%;
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-with: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+
+    #jc {
+        left: 0;
+
+    }
+
+    h2,
+    h3 {
+
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    legend>p {
+
+        text-align: center;
+        padding: 0 20px;
+
+    }
 }
