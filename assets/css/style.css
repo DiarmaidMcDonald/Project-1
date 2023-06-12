@@ -60,22 +60,14 @@ h1 {
 
 /* James Connolly image */
 
-#jc-drop {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    background-size: auto;
-}
-
 #jc {
-    height: 400px;
-    width: 100%;
-    background: url('../images/jamesconnolly.jpeg') no-repeat center center;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    background-size: auto;
+    background-image: url('../images/jamesconnolly4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 #timeline {
@@ -269,8 +261,50 @@ input[type=reset] {
 /* Map at the bottom of Sign Up form */
 
 .map {
+    position: absolute;
+    top: 25%;
     height: auto;
     max-width: 100%;
     border: none;
+    clear: both;
+    float: left;
 
+}
+
+/* Media queries */
+
+/* For large to medium screens from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+
+    h2,
+    h3,
+    {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.video {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+
+}
+
+legend>p {
+    float: left;
+    width: 100%;
+    clear: both;
+
+}
+
+.map {
+
+    clear: both;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
