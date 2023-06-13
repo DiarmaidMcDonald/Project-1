@@ -1,39 +1,118 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Heroes of Ireland
 
-Welcome,
+Heroes of Ireland is a website that gives you historical facts surrounding Irish heroes, in particular on this page, James Connolly. It will give you a timeline of his life up until his execution in 1916. There is gallery section that will allow you to view some images and quotes from him. Finally, a quiz page that will allow you to enter a draw with a chance to win a trip to Kilmainham Gaol, where he along with other men were executed.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![screen-sizes.png](../Project-1/assets/images/screen-sizes.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+Please follow the link below to the webpage -
 
-## Codeanywhere Reminders
+[Heroes of Ireland](https://8000-diarmaidmcdonald-project-yl9o4dg1k3.us2.codeanyapp.com/index.html)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Users Experience
 
-`python3 -m http.server`
+#### Project Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This website will give you a descriptive timeline of the life of James Connolly.
+A gallery section.
+Offer its readers a chance to win a trip to Kilmainham Gaol where they will futher educate themselves on the events that took part there.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+#### Typography
 
-`http_server`
+The main font used in the site is Montserrat, with Sans-Serif as a backup incase Montserrat fails.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Navigation through website
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![navigation](../Project-1/assets/images/navigation.png)
 
-To log into the Heroku toolbelt CLI:
+As shown in the photo above 'Home', 'Gallery', and 'Sign Up' can be found on all three of the pages throughout the website. These are fully responsive and will navigate you to the page you require to view on all devices.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### The Landing Page Image
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![irish-heroes](../Project-1/assets/images/jamesconnolly4.jpeg)
 
----
+The photo above shows past Irish heroes who were executed.
 
-Happy coding!
+![paragraphs](../Project-1/assets/images/paragraphs.png)
+
+This timeline depicts the life of James Connolly.
+
+![video](../Project-1/assets/images/video.png)
+
+Once clicked to play, the video will present what is to offer should you win the draw.
+
+![details](../Project-1/assets/images/details.png)
+
+Should you wish to partake in the draw you must enter you details (name and email address) and answer the following questions correctly by ticking the boxes provided before pressing the submit button.
+If, for some reason, you wish to answer the questions again hit the reset button and you will be able to click in the answers again.
+
+![map1](../Project-1/assets/images/map1.png)
+
+The map will show you where it is and what is around it. Should you need directions, click on the photo provided and Kilmainham Gaol will be marked on Google Maps.
+
+![footer](../Project-1/assets/images/footer.png)
+
+The footer provides links to social media websites provided i.e, facebook, twitter, youtube, instagram.
+Once clicked upon, the links will open in a new tab.
+
+#### Easter Egg
+
+As this website is called Heroes of Ireland and the timeline provided is about James Connolly, the colours used for the background (green), writing (white), and footer (orange) relates to the Irish flag.
+
+## Testing
+
+#### Validator Testing
+
+##### HTML
+
+W3C Markup Validator found no errors on the webpages.
+
+##### CSS
+
+W3C CSS Validator found an error suggesting that the value 'center' assigned to float didn't work.
+
+#### Accessibility
+
+Lighthouse was used in the Chrome Developer Tools.
+
+#### Lighthouse reports:
+
+Landing Page:
+
+![landing-page](../Project-1/assets/images/landing-page.png)
+
+Gallery Page:
+
+![gallery](../Project-1/assets/images/gallery.png)
+
+Sign Up Page:
+
+![signup](../Project-1/assets/images/signup.png)
+
+## Deployment
+
+This site was deployed through GitHub pages.
+
+In order to access the site you must:
+
+1. Firstly, login to GitHub.
+2. Once logged in above the GitHub Repository section, click on the settings option.
+3. Scroll down the page, and to your left you will see 'Pages'.
+4. Having clicked on 'Pages' under Source, click the dropdown called None and select 'Main' or 'Master Branch'.
+   5)The page will refresh automatically and generate a link to your website on top of the page.
+
+## Credits
+
+#### Media
+
+YouTube channel, Connolly Cove, for the video on the 'signup page'.
+RTE for assisting me with the timeline of James Connolly.
+
+#### Mentor
+
+My mentor Marcel for his time, guidance, and feedback.
+
+#### Code Institute and Slack Community
+
+For their support and providing me with the necessary knowledge to complete this project.
