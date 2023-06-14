@@ -30,7 +30,7 @@ As shown in the photo above 'Home', 'Gallery', and 'Sign Up' can be found on all
 
 #### The Landing Page Image
 
-![irish-heroes](../Project-1/assets/images/jamesconnolly4.jpeg)
+![irish-heroes](assets/images/jamesconnolly4.jpeg)
 
 The photo above shows past Irish heroes who were executed.
 
