@@ -145,12 +145,12 @@ footer>span {
 
 h2,
 h3 {
-    margin-top: 100px;
+    margin-top: 10%;
     font-family: 'Cardo', sans-serif;
     text-align: center;
     font-size: 30px;
-    margin: 0 auto;
     color: #ffffff;
+    clear: both;
 }
 
 /* Sign Up Page Video */
