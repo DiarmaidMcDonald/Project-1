@@ -58,7 +58,7 @@ h1 {
     color: #ffffff;
 }
 
-/* James Connolly image */
+/* Executed leaders image */
 
 #jc {
     background-image: url('../images/jamesconnolly4.jpeg');
@@ -97,9 +97,8 @@ h1 {
 
 .gallery img {
     width: 50%;
-    height: 50%;
+    height: auto;
     box-sizing: border-box;
-
 }
 
 
@@ -289,54 +288,40 @@ input[type=reset] {
 @media screen and (max-width: 1200px) {
 
 
-    /* Adjust the font size for the heading */
     h1 {
         font-size: 24px;
     }
 
-    /* Reduce the font size for the menu options */
     #menu li a {
         font-size: 14px;
     }
 
-    /* Center align the video container */
     .video-container {
         display: flex;
         justify-content: center;
     }
 
-    /* Set the maximum width of the video to 100% */
     .video-container .video {
         max-width: 100%;
     }
 
-    /* Adjust the font size for the questionnaire heading */
     .heading {
         font-size: 18px;
     }
 
-    /* Adjust the font size for the question text */
     .questionaire {
         font-size: 14px;
     }
 
-    /* Adjust the font size for the submit and reset buttons */
     input[type="submit"],
     input[type="reset"] {
         font-size: 14px;
     }
 
-    /* Reduce the font size for the social media icons */
     footer .social-networks a i {
         font-size: 20px;
     }
 }
-
-
-
-
-
-
 
 
 /* For medium screen sizes from 950px wide and down */
@@ -344,34 +329,28 @@ input[type=reset] {
 @media screen and (max-width: 950px) {
 
 
-    /* Adjust the heading font size */
     h1 {
         font-size: 24px;
     }
 
-    /* Center the menu options */
     #menu {
         text-align: center;
     }
 
-    /* Adjust the font size and spacing of the questionaire */
     .questionaire {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    /* Adjust the layout of the form fields */
     .f-left {
         width: 100%;
     }
 
-    /* Adjust the layout of the map image */
     .map {
         width: 100%;
         height: auto;
     }
 
-    /* Adjust the layout of the social media icons */
     .social-networks {
         text-align: center;
     }

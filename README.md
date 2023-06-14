@@ -40,6 +40,12 @@ The photo above shows past Irish heroes who were executed.
 
 This timeline depicts the life of James Connolly.
 
+#### Gallery
+
+![fullpage](assets/images/fullpage.png)
+
+Gives you images of James Connolly, Poblacht na hEireann (Irish Proclamation), Kilmainham Gaol and its grounds, and the men who were executed on during the 1916 rising.
+
 #### Video of Kilmainham Gaol
 
 ![video](assets/images/video.png)
